@@ -1,5 +1,6 @@
 # git-backup
 gitに定期的にファイルをバックアップするプログラム(windows用)
+そのうちpythonバージョンも出すかも
 # 使い方
 まず初めに`setup.bat`を実行してGITを設定します
 その後`back_up.bat`の`echo d | xcopy /E "<バックアップしたいファイルのディレクトリ>" "backup\%times%"`と
